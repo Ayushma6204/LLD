@@ -1,5 +1,4 @@
 class Seats:
-    def __init__(self,number,seat_type,seat_status):
+    def __init__(self,number,seat_type):
         self.number=number 
-        self.seat_type=seat_type 
-        self.seat_status=seat_status
+        self.seat_type=seat_type

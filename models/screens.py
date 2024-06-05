@@ -3,4 +3,5 @@ class Screens:
         self.id=id 
         self.name=name 
         self.theatre=theatre
-        self.seats=seats 
+        self.seats=seats
+        

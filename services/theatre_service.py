@@ -9,6 +9,11 @@ class TheatreService:
         theatre=Theatre(id,name)
         self.theatre_list[id]=theatre
         print(self.theatre_list) 
-        return self.theatre_list
-        
+    
+    def get_list_of_screens(self,screens):
+        print(screens)
+        list_of_screens=[]
+        for screen in screens:
+            list_of_screens.append(screen)
+        return list_of_screens        
         
