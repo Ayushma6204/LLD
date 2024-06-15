@@ -5,10 +5,10 @@ class User:
         self.name=name
         self.email=email 
         self.password=password 
-        self.balances=defaultdict(float)
+        self.balances={}
     
-    def update_balances(self,user,amount_,paid_by):
-        self.balances[f"{user.name} owns {paid_by.name}" ] = amount_
+    def update_balances(self,user,amount):
+        self.balances[user.name] = amount
+
      
-        print(self.balances)
         return self.balances

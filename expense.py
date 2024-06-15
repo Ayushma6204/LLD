@@ -38,6 +38,6 @@ class Expense(ABC):
     def set_meta_data(self, meta_data):
         self.meta_data = meta_data
 
-    # @abstractmethod
-    # def validate(self):
-    #     pass
+    @abstractmethod
+    def validate(self):
+        pass

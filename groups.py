@@ -3,7 +3,4 @@ class Group:
         self.group_id=group_id 
         self.users_list=users_list
         self.expenses=[] 
-    def add_expense(self,expense):
-        self.expenses.append(expense)
-        return self.expenses
         
