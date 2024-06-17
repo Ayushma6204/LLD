@@ -3,5 +3,5 @@ class Delivery:
         self.id=id 
         self.name=name 
         self.phone=phone
-        self.availabilty_status=True
+        self.availability_status=True
         
